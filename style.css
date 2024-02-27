@@ -1,0 +1,192 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.firstpic {
+    height: 500px;
+    width: 700px;
+    border-radius: 30%;
+    opacity: 75%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: url(https://i.pinimg.com/736x/d5/3c/0c/d53c0c985112b0f99ebc59452bc461e9.jpg);
+}
+
+button {
+    background-color: orange;
+}
+
+@font-face {
+    font-family: customfont;
+    src: url(CloisterBlackLight-axjg.ttf);
+}
+
+body {
+    font-family: customfont;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.child1 {
+    margin: 20px;
+    background-image: url(https://www.renemagritte.org/assets/img/paintings/the-art-of-living.jpg);
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-color: orange;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.child2 {
+    margin: 20px;
+    background-image: url(https://d7hftxdivxxvm.cloudfront.net/?height=800&quality=85&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FNICi9TVl8M0jt0Q5aXttPA%2Fnormalized.jpg&width=566);
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+    border-color: orange;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.child3 {
+    margin: 20px;
+    background-image: url(https://study.com/cimages/multimages/16/dechiricolovesong.jpg);
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+    border-color: orange;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}    
+
+.child4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    color: darkmagenta;
+    background-color: beige;
+}
+
+.child5 {
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+    font: 400px;
+}
+
+.child6 {
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.child7 {
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+    
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    color: beige;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: content-box;
+}    
+
+.abmepic1 {
+    height: 400px;
+    width: 400px;
+}
+
+.abmepic2 {
+    height: 400px;
+    width: 400px;
+}
+
+.abmepic3 {
+    height: 400px;
+    width: 400px;
+}
+
+.hidden {
+    display: none; 
+}
+
+.hidden2 {
+    display: none;
+}
+
+.hidden3 {
+    display: none;
+}
+
+.abmepic1:hover + .hidden {
+    display: block;
+    color: red;
+    font: 700px;
+}
+
+.abmepic2:hover + .hidden2 {
+    display: block;
+    color: red;
+    font: 700px;
+}
+
+.abmepic3:hover + .hidden3 {
+    display: block;
+    color: red;
+    font: 700px;
+}
