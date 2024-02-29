@@ -18,7 +18,8 @@
 h1 {
     display: flex;
     justify-content: center;
-    font-size: 80px;
+    align-items: center;
+    font-size: 60pt;
     color: transparent;
     -webkit-background-clip: text;
     background-image: url(https://i.pinimg.com/736x/d5/3c/0c/d53c0c985112b0f99ebc59452bc461e9.jpg);
@@ -290,4 +291,38 @@ span {
 
 h2 {
     margin: 15px;
+}
+
+.contacthead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactplace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.contactstuff {
+    background-color: maroon;
+}
+
+.successpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gohome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.successcolor {
+    background-color: bisque;
 }
